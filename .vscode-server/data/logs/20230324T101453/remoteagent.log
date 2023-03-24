@@ -1,0 +1,50 @@
+2023-03-24 10:14:53.866 [info] 
+
+
+
+
+2023-03-24 10:14:53.866 [info] Extension host agent started.
+2023-03-24 10:14:53.982 [info] Started initializing default profile extensions in extensions installation folder. file:///home/azureuser/.vscode-server/extensions
+2023-03-24 10:14:54.071 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/azureuser/.vscode-server/extensions
+2023-03-24 10:14:54.142 [info] [127.0.0.1][458520a8][ManagementConnection] New connection established.
+2023-03-24 10:14:54.205 [info] [127.0.0.1][7d4cd671][ExtensionHostConnection] New connection established.
+2023-03-24 10:14:54.216 [info] [127.0.0.1][7d4cd671][ExtensionHostConnection] <2137> Launched Extension Host Process.
+2023-03-24 10:19:53.846 [info] New EH opened, aborting shutdown
+2023-03-24 10:34:27.810 [info] [127.0.0.1][458520a8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-24 10:34:27.834 [info] [127.0.0.1][7d4cd671][ExtensionHostConnection] <2137> Extension Host Process exited with code: 0, signal: null.
+2023-03-24 10:34:27.835 [info] Last EH closed, waiting before shutting down
+2023-03-24 10:34:31.211 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-24 10:34:31.211 [info] Cancelling previous shutdown timeout
+2023-03-24 10:34:31.459 [info] [127.0.0.1][dbc137e3][ManagementConnection] New connection established.
+2023-03-24 10:34:31.649 [info] [127.0.0.1][510e8084][ExtensionHostConnection] New connection established.
+2023-03-24 10:34:31.695 [info] [127.0.0.1][510e8084][ExtensionHostConnection] <2483> Launched Extension Host Process.
+2023-03-24 10:34:34.708 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:27:6849)
+    at S.updateTitle (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:27:2630)
+    at Object.call (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at l.s (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at l.q (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at n.invoke (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:11:2070)
+    at c.fire (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:11:1708)
+    at process.T (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:9:20949)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-24 10:34:34.710 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:27:6849)
+    at S.updateIcon (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:27:2680)
+    at Object.call (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at l.s (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at l.q (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at n.invoke (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:11:2070)
+    at c.fire (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:11:1708)
+    at process.T (/home/azureuser/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/platform/terminal/node/ptyHostMain.js:9:20949)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-24 10:39:31.212 [info] New EH opened, aborting shutdown
+2023-03-24 11:29:02.060 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
